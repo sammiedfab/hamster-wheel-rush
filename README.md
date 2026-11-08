@@ -55,6 +55,8 @@ To run the fork test, which deploys on a local copy of Sepolia and reads the rea
 FORK=1 npx hardhat test
 ```
 
-## Deploy
+## Deployment
 
-See `DEPLOY.md`.
+`WheelRushLeaderboard` is live on Sepolia at [`0xAD725e65b054079c7cc1DC129C75659C9340e1E7`](https://sepolia.etherscan.io/address/0xAD725e65b054079c7cc1DC129C75659C9340e1E7), reading SqueekCore at `0xFD6C166D4B8E2962E65746a13e5a0797CD4dE0c4`. The game in `web/index.html` is configured to use it.
+
+To deploy your own copy, see `DEPLOY.md`.

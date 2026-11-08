@@ -1,7 +1,7 @@
 # Brief for the IMD Website job
 
 Paste the text below into the IMD Website job ("Start from GitHub instead"), with this repository's link.
-Before ordering: deploy the leaderboard contract (see DEPLOY.md) and put its address in `CONFIG.address` in `web/index.html`, then push.
+The leaderboard contract is already deployed on Sepolia (0xAD725e65b054079c7cc1DC129C75659C9340e1E7) and set in `web/index.html`.
 
 ---
 
