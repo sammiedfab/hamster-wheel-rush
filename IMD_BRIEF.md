@@ -1,11 +1,11 @@
 # Brief for the IMD Website job
 
 Paste the text below into the IMD Website job ("Start from GitHub instead"), with this repository's link.
-The leaderboard contract is already deployed on Sepolia (0xAD725e65b054079c7cc1DC129C75659C9340e1E7) and set in `web/index.html`.
+The leaderboard contract is already deployed on Sepolia (0xAD725e65b054079c7cc1DC129C75659C9340e1E7) and set in `public/index.html`.
 
 ---
 
-Host Hamster Wheel Rush, a finished browser game for the Squeekchain community, as a static site. The whole site is one file: `web/index.html`. Serve that folder as the site root. There is no build step and no backend.
+Host Hamster Wheel Rush, a finished browser game for the Squeekchain community, as a static site. The whole site is one file: `public/index.html`. Serve that folder as the site root. There is no build step and no backend.
 
 Keep the game exactly as it is: the design, copy, layout, game tuning and contract address. This is hosting, not a redesign. Do not add a dependency, analytics or a framework. Do not change anything in `contracts/` or `test/`.
 

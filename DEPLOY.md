@@ -42,7 +42,7 @@ Verifying lets anyone read the code on the explorer. In Remix, open the **Contra
 
 ## 5. Connect the game
 
-Open `web/index.html`, find `CONFIG` near the bottom, and paste your address:
+Open `public/index.html`, find `CONFIG` near the bottom, and paste your address:
 
 ```js
 const CONFIG = Object.assign({
@@ -51,10 +51,10 @@ const CONFIG = Object.assign({
 
 ## 6. Host the game
 
-The `web` folder is the whole site, one file. Any static host works:
+The `public` folder is the whole site, one file. Any static host works:
 
-- **Vercel**: run `npx vercel web` from this folder, or import the folder at vercel.com/new.
-- **Netlify**: drag the `web` folder onto app.netlify.com/drop.
+- **Vercel**: run `npx vercel public` from this folder, or import the folder at vercel.com/new.
+- **Netlify**: drag the `public` folder onto app.netlify.com/drop.
 - **GitHub Pages**: push the folder to a repository and turn on Pages.
 
 Wallets only connect on a real web page (https or localhost), so test the hosted link, not a file opened from your disk. The private Claude artifact version of the game can't connect a wallet either.

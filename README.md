@@ -25,7 +25,7 @@ SQK in the game are points, not tokens. Nothing of value is paid out.
 | `contracts/test/MockSqueekCore.sol` | A stand-in for SqueekCore, used only by the tests |
 | `test/WheelRushLeaderboard.test.js` | Contract tests, local and against a Sepolia fork |
 | `scripts/deploy.js` | Hardhat deploy script (used for the local fork test) |
-| `web/index.html` | The game as a standalone web page, with wallet, save and leaderboard |
+| `public/index.html` | The game as a standalone web page, with wallet, save and leaderboard |
 | `DEPLOY.md` | Step-by-step deployment from your own wallet with Remix |
 
 ## How the contract works
@@ -57,6 +57,6 @@ FORK=1 npx hardhat test
 
 ## Deployment
 
-`WheelRushLeaderboard` is live on Sepolia at [`0xAD725e65b054079c7cc1DC129C75659C9340e1E7`](https://sepolia.etherscan.io/address/0xAD725e65b054079c7cc1DC129C75659C9340e1E7), reading SqueekCore at `0xFD6C166D4B8E2962E65746a13e5a0797CD4dE0c4`. The game in `web/index.html` is configured to use it.
+`WheelRushLeaderboard` is live on Sepolia at [`0xAD725e65b054079c7cc1DC129C75659C9340e1E7`](https://sepolia.etherscan.io/address/0xAD725e65b054079c7cc1DC129C75659C9340e1E7), reading SqueekCore at `0xFD6C166D4B8E2962E65746a13e5a0797CD4dE0c4`. The game in `public/index.html` is configured to use it.
 
 To deploy your own copy, see `DEPLOY.md`.
